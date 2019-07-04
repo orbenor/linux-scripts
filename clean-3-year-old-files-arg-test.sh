@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -x
+#set -x dd
 while getopts f:e: option
 do
 case "${option}"
