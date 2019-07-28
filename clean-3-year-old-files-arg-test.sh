@@ -1,5 +1,7 @@
 #!/bin/bash
 #set -x
+#Auther: Benor Or 
+#Email: orbenor@gmail.com
 while getopts f:e: option
 do
 case "${option}"
