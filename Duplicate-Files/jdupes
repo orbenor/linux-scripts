@@ -1,0 +1,2 @@
+# find duplicate greater then 149MB
+time jdupes -r -X size-=:149M /tmp/folder
