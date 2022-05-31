@@ -1,4 +1,3 @@
-root@benoradmin:/gpfs/units/it/1-quick/acronis# cat /root/scripts/ph.sh 
 #!/bin/bash
 num=`pwd| sed -e 's/\(.\)/\1\n/g' | grep '/' | wc -l`
 pwdpath=`pwd`
